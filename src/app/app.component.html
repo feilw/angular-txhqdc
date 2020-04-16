@@ -1,4 +1,17 @@
 <hello name="{{ name }}"></hello>
+
 <p>
-  Start editing to see some magic happen :)
+  <input [(ngModel)] = "a" type="text" /> ^
+  <input [(ngModel)] = "b" type="text" /> = 
+  {{hasil}}
 </p>
+
+mod: {{gg}} <br/><br/>
+
+<div *ngIf="gg == '0'">
+  Genap
+</div>
+
+<div *ngIf="gg != '0'">
+  Ganjil
+</div>
